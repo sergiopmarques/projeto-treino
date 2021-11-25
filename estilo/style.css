@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* Paleta de Cores
+ #330DFF - azul mais escuro
+ #0B1BDE
+ #0048F5
+ #0B7ADE
+ #11C0FA - azul mais claro
+*/
+
+:root{
+    --cor0:#330DFF;
+    --cor1:#0B1BDE;
+    --cor2:#0048F5;
+    --cor3:#0B7ADE;
+    --cor4:#11C0FA;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+     background-color: var(--cor4);
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor1));
+    text-align: center;
+    min-height: 180px;
+    padding-top: 30px;
+}
+
+header > h1{
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+img{
+    padding-top:30px;
+    padding-left: 100px;
+}
+
+nav{
+    background-color:var(--cor0);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+}
+
+nav > a{
+    color:var(--cor4);
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color:var(--cor0);
+}
+
+main{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+main > p{
+    margin: 15px 0px;
+    text-align:justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: bold;
+}
