@@ -66,8 +66,17 @@ nav > a:hover{
 }
 
 main{
-    padding-top: 40px;
-    padding-left: 40px;
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: 0.5px solid darkblue;
+    border-radius: 15px;
+}
+
+main > h2{
+    text-align: center;
 }
 
 main > p{
