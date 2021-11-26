@@ -43,7 +43,7 @@ header > h1{
 
 img{
     padding-top:30px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 nav{
@@ -70,7 +70,7 @@ main{
     max-width: 600px;
     padding: 10px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     border: 0.5px solid darkblue;
     border-radius: 15px;
 }
